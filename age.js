@@ -8,7 +8,6 @@ var roj=date.getDate();
 var hayv=1+date.getMonth();
 var sal=date.getFullYear();
 
-
 var M=[31,28,31,30,31,30,31,31,30,31,30,31];//bahzad_krd
 e=hayv-1;
 
@@ -27,7 +26,7 @@ var mo =hayv-m;
 var so =sal-y;
 //<!-- to de hnda rojen di bia jnda sal -->
 var rojen=M[e]-dod;
-var hayven=12-mo;
+var hayven=11-mo;
 var salen=so+1;
 
 var hev=(so*12)+mo; 
